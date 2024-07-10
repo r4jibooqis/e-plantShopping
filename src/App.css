@@ -19,7 +19,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-background-color: lightgrey;
+  background-color: lightgrey;
+  background-image: url(https://media.architecturaldigest.com/photos/5f282f526034aa6c4467146a/16:9/w_960,c_limit/_MG_0942-RETB%C2%A9Eric-Sander.jpg);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
@@ -28,14 +33,14 @@ background-color: lightgrey;
   justify-content: center;
   height: 100vh;
   width: 100vw;
- top: 100px;
+  top: 100px;
   backdrop-filter: blur(4px);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   gap: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
+  margin-top: 430px;
   margin-left: 100px;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -76,7 +81,7 @@ background-color: lightgrey;
   font-size: 23px;
   border: none;
   border-radius: 5px;
-  background-color: #4caf50;
+  background-color: #3eac55;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -111,6 +116,7 @@ background-color: lightgrey;
 .product-list-container.visible {
   top: 0;
 }
+
 /* LandingPage.css */
 @media screen and (max-width: 768px) {
   .content {
@@ -121,25 +127,32 @@ background-color: lightgrey;
   }
 
   .landing_content {
-    margin-top: 100px; /* Adjust as needed */
+    margin-top: 100px;
+    /* Adjust as needed */
     margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    width: 80%;
+    /* Adjust as needed */
     text-align: center;
   }
 
   .aboutus_container {
-    margin-top: 20px; /* Adjust as needed */
-    width: 80%; /* Adjust as needed */
+    margin-top: 20px;
+    /* Adjust as needed */
+    width: 80%;
+    /* Adjust as needed */
   }
 }
 
 @media screen and (max-width: 480px) {
   .landing_content {
-    margin-top: 50px; /* Adjust as needed */
-    width: 90%; /* Adjust as needed */
+    margin-top: 50px;
+    /* Adjust as needed */
+    width: 90%;
+    /* Adjust as needed */
   }
 
   .aboutus_container {
-    width: 90%; /* Adjust as needed */
+    width: 90%;
+    /* Adjust as needed */
   }
 }
