@@ -15,17 +15,9 @@ The application features:
 
 ## Setup Instructions
 
-### Fork and Clone the Repository
+### Clone the Repository
 
-1. **Fork the Repository**
-
-   Fork the GitHub repository with the skeleton code for this project:
-
-   [Fork the Repository](https://github.com/ibm-developer-skills-network/e-plantShopping.git)
-
-   ![Fork the repository](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/zZMZUZ0Q4zl7koVz2OhbPQ/e-plantshoprepository.png)
-
-2. **Clone the Repository**
+3. **Clone the Repository**
 
    Clone your forked repository to your local environment:
 
@@ -33,7 +25,7 @@ The application features:
    git clone <forked-repo-link>
    ```
 
-3. **Navigate to Project Folder**
+4. **Navigate to Project Folder**
 
    Change to the project directory:
 
@@ -41,7 +33,7 @@ The application features:
    cd e-plantShopping
    ```
 
-4. **Install Dependencies**
+5. **Install Dependencies**
 
    Install the necessary npm packages:
 
@@ -49,7 +41,7 @@ The application features:
    npm install
    ```
 
-5. **Run the Application**
+6. **Run the Application**
 
    Start the React application:
 
