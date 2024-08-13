@@ -13,7 +13,7 @@ The application features:
 - A Cart Page showing products in the cart, with functionality to update quantities and remove items.
 - **Continue Shopping** and **Checkout** buttons.
 
-![cognitiveclass.ai logo]([https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-WD0231EN-SkillsNetwork/IDSN-logo.png](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/rdrEbBnT64JcAfhcKQHQUg/landing-plant.png))
+![Landing Page](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/rdrEbBnT64JcAfhcKQHQUg/landing-plant.png)
 
 ## Setup Instructions
 
